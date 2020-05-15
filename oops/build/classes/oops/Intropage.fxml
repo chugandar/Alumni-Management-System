@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="693.0" prefWidth="1039.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oops.IntropageController">
+   <children>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="190.0" layoutX="1.0" layoutY="54.0" prefHeight="644.0" prefWidth="134.0" />
+      <ScrollPane layoutX="834.0" layoutY="104.0" prefHeight="545.0" prefWidth="189.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="539.0" prefWidth="190.0">
+               <children>
+                  <Label layoutX="2.0" layoutY="5.0" prefHeight="85.0" prefWidth="187.0" text="College will remain closed due to COVID-19 pandemic" wrapText="true" />
+                  <Label layoutX="1.0" layoutY="97.0" prefHeight="75.0" prefWidth="189.0" text="Students are requested to attend online classes" wrapText="true" />
+                  <Label layoutY="172.0" prefHeight="89.0" prefWidth="191.0" text="Self study projects should be submitted by 31st March 2020" wrapText="true" />
+                  <Label layoutX="3.0" layoutY="248.0" prefHeight="97.0" prefWidth="177.0" text="All Alumni meets are postponed due to Corona virus pandemic. The upcoming date will be shared soon" wrapText="true" />
+                  <Label layoutX="3.0" layoutY="354.0" prefHeight="85.0" prefWidth="178.0" text="All students are requested use Online Digital Library. The link has been shared through email" wrapText="true" />
+                  <Label layoutX="2.0" layoutY="439.0" prefHeight="90.0" prefWidth="188.0" text="8th Mile was a huge success. Thanks to everyone who helped in making it a great success" wrapText="true" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="222.0" fitWidth="556.0" layoutX="229.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rvce.jpg" />
+         </image></ImageView>
+      <JFXTextArea layoutX="221.0" layoutY="335.0" prefHeight="358.0" prefWidth="575.0" text="R.V. College of Engineering (RVCE) established in 1963 is one of the earliest self-financing engineering colleges in the country. The institution is run by Rashtreeya Sikshana Samithi Trust (RSST) a not for profit trust. The trust runs over 25 institutions and RVCE is the flagship institute under the trust. RVCE is today recognized as one of India’s leading technical institution.&#10;&#10;Established in 1963 with three engineering branches namely Civil, Mechanical and Electrical, today RVCE offers 12 Under Graduate Engineering programmes, 21 Master Degree programmes and Doctoral Studies.Located 13 km from the heart of Bangalore City – the Silicon Valley of India, on Mysore Road.Sprawling campus spread over an area of 50.97 acres set in sylvan surroundings.Provides an ideal ambience to stimulate the teaching-learning process, helping in bringing out skilled and disciplined Engineers. Rated one amongst the top ten self-financing Engineering Institutions in the country. Current annual student intake for Undergraduate Programmes &amp; Post Graduate Programmes in Engineering is in excess of 1200. Highly qualified and dedicated faculty. Utilizes its expertise in various disciplines to conduct Research and Development for Industry and Defense establishments in the country." />
+      <JFXHamburger fx:id="hamburger" layoutX="14.0" layoutY="14.0" />
+   </children>
+</AnchorPane>

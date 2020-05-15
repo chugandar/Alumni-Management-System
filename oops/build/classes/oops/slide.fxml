@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="201.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oops.SlideController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@drawer3.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton accessibleText="Material_One" prefHeight="83.0" prefWidth="201.0" stylesheets="@slide.css" text="Home" />
+      <JFXButton accessibleText="Material_Two" prefHeight="83.0" prefWidth="201.0" stylesheets="@slide.css" text="Profile" />
+      <JFXButton accessibleText="Material_Three" prefHeight="83.0" prefWidth="201.0" stylesheets="@slide.css" text="Feedback" />
+      <JFXButton accessibleText="Material_Four" prefHeight="83.0" prefWidth="201.0" stylesheets="@slide.css" text="Logout" />
+   </children>
+</VBox>

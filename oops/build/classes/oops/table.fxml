@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="752.0" prefWidth="1428.0" style="-fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="oops.TableController">
+   <children>
+      <TableView fx:id="tableView" layoutX="265.0" layoutY="162.0" prefHeight="329.0" prefWidth="1112.0">
+        <columns>
+          <TableColumn fx:id="NameColumn" prefWidth="124.0" text="Name" />
+          <TableColumn fx:id="p_yearColumn" prefWidth="128.0" text="Passing Year" />
+            <TableColumn fx:id="emailidColumn" prefWidth="159.0" text="Emailid" />
+            <TableColumn fx:id="organisationColumn" prefWidth="121.0" text="Organisation" />
+            <TableColumn fx:id="usernameColumn" prefWidth="145.0" text="Username" />
+            <TableColumn fx:id="passwordColumn" prefWidth="155.0" text="Password" />
+            <TableColumn fx:id="feedbackColumn" prefWidth="279.0" text="Feedback" />
+        </columns>
+      </TableView>
+      <JFXButton buttonType="RAISED" layoutX="596.0" layoutY="591.0" onAction="#deleterow" prefHeight="50.0" prefWidth="141.0" ripplerFill="WHITE" style="-fx-background-color: #00C853;" text="Delete Entry" textFill="WHITE" />
+      <JFXButton buttonType="RAISED" layoutX="874.0" layoutY="591.0" onAction="#loginpage" prefHeight="50.0" prefWidth="153.0" ripplerFill="WHITE" style="-fx-background-color: #00C853;" text="Back" textFill="WHITE" />
+   </children>
+</AnchorPane>
